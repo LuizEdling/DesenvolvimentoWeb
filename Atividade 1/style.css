@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: 100%;
+}
+
+header{
+    display: block;
+    background-color: #2D3142;
+    height: 100px;
+}
+
+img{
+    float: right;
+    max-height: 80px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+    margin: 0px;
+}
+
+header h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #e5d9d9;
+}
+
+nav ul{
+    width: 100%;
+    text-align: center;
+    background-color: #BFC0C0;
+}
+
+nav ul li{
+    cursor: pointer;
+    margin: 0px;
+    display: inline-block;
+    width: 31%;
+    border: 1px black solid;
+    border-top: 0px;
+    border-collapse: collapse;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #4F5D75;
+    transition: background-color 0.3s;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    transition: color 0.3s;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: rgb(200, 223, 230);
+    text-decoration: underline;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #BFC0C0;
+    height: 100vh;
+    margin: 0;
+    align-items: center; 
+    padding: 0 10%; 
+}
+
+#homeContent, #gostosContent, #contatoContent {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#welcome, #objetivo, #aleatorio {
+    width: 32%;
+    margin: 10px;
+}
+
+#welcome h1, #objetivo h1, #aleatorio h1 {
+    color: #2D3142;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+#welcome p, #objetivo p, #aleatorio p {
+    margin-top: 35px;
+    color: #2D3142;
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+
+#jogos, #animes, #livros {
+    width: 32%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    align-items: center; /* Alinha os itens horizontalmente */
+}
+
+#jogos h1, #animes h1, #livros h1 {
+    color: #2D3142;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+#jogos p, #animes p, #livros p {
+    margin-top: 35px;
+    color: #2D3142;
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+
+#jogos img, #animes img, #livros img{
+    border: 4px solid black;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px; 
+}
+
+#wpp, #instagram, #email {
+    width: 32%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    align-items: center; /* Alinha os itens horizontalmente */
+}
+
+#wpp h1, #instagram h1, #email h1 {
+    color: #2D3142;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+#wpp p, #instagram p, #email p {
+    margin-top: 35px;
+    color: #2D3142;
+    border-right: 1px solid black;
+    font-size: 20px;
+}
+
+#wpp img, #instagram img, #email img{
+    border: 4px solid black;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px; 
+}
+
+
+
+
+
+

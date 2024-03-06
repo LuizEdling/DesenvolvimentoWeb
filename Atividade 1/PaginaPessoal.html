@@ -1,31 +1,90 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>UNES - Página principal</title>
+		<title>Conheça Luiz Henrique Ribas Edling</title>
 		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
 	</head>
-    <style>
-        header{
-            background-color: rgb(95, 95, 216);
-            height: 100px;
-        }
-
-        img{
-            float: right;
-            max-height: 80px;
-            padding-right: 20px;
-            padding-top: 10px;
-        }
-
-        h1{
-            font-size: 70px;
-            text-align: center;
-            padding-top: 30px;
-        }
-    </style>
     <header>
-        <div id="imagem"> <img src="imagens/FotoLuiz.png"></div>
-        <h1>Minha Página Pessoal</h1>
+        <img src="imagens/FotoLuiz.png">
+        <h1><strong>MINHA PÁGINA PESSOAL</strong></h1>
     </header>
+    <nav>
+        <ul>
+            <a href="#home"><li>Página Inicial</li></a>
+            <a href="#gostos"> <li>Meus Gostos</li></a>
+            <a href="#Contato"> <li>Contato</li></a>
+        </ul>
+    </nav>
+    <body>
+        <section id="home" class="section">
+            <div id="homeContent">
+                <div id="welcome">
+                    <h1>Bem vindo!</h1>
+                    <p>Olá, essa é a Minha Página Pessoal, sinta-se a vontade para explorar meus gostos, entrar em contato comigo e me conhecer melhor. Navegue a vontade por essa página!</p>
+                </div>
+
+                <div id="objetivo">
+                    <h1>Objetivo</h1>
+                    <p>O objetivo dessa página é, além de pontuar na matéria do Giovane, que você tenha a oportunidade de me conhecer melhor, os meus animes, jogos e livros preferidos, e poder dar risada disso :)</p>
+                </div>
+
+                <div id="aleatorio">
+                    <h1>Não leia</h1>
+                    <p> Não sabia o que escrever nesse bloco, então leia essa poesia:
+                    Rosas são vermelhas, Violetas são azuis, Dane-se o poema, Seu cabelo me seduz</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gostos" class="section">
+            <div id="gostosContent">
+                <div id="jogos">
+                    <h1>Meus Jogos</h1>
+                    <img src="imagens/Captura de tela 2024-03-05 222221.png">
+                    <img src="imagens/Captura de tela 2024-03-05 222234.png">
+                    <img src="imagens/Captura de tela 2024-03-05 222256.png">
+                </div>
+
+                <div id="animes">
+                    <h1>Meus Animes</h1>
+                    <img src="imagens/Captura de tela 2024-03-05 223013.png">
+                    <img src="imagens/Captura de tela 2024-03-05 223032.png">
+                    <img src="imagens/Captura de tela 2024-03-05 223052.png">
+                </div>
+
+                <div id="livros">
+                    <h1>Meus Livros</h1>
+                    <img src="imagens/Captura de tela 2024-03-05 223243.png">
+                    <img src="imagens/Captura de tela 2024-03-05 223314.png">
+                    <img src="imagens/Captura de tela 2024-03-05 223330.png">
+                </div>
+            </div>
+        </section>
+
+        <section id="Contato" class="section">
+            <div id="contatoContent">
+                <div id="wpp">
+                    <h1>Meus Whatsapp</h1>
+                    <img src="imagens/Captura de tela 2024-03-05 223823.png">
+                    <h2>(42)98800-7444</h2>
+                </div>
+
+                <div id="instagram">
+                    <h1>Meu Instagram</h1>
+                    <img src="imagens/Captura de tela 2024-03-05 223838.png">
+                    <h2>@luizhr.edling</h2>
+                </div>
+
+                <div id="email">
+                    <h1>Meu Email</h1>
+                    <img src="imagens/Captura de tela 2024-03-05 223848.png">
+                    <h2>luizedling.h@gmail.com</h2>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
 
 </html>
